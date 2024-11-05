@@ -1,7 +1,7 @@
 /* Estilos gerais */
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
-    background-color: rgb(189, 196, 188);
+    background-color: rgb(0, 0, 0);
     margin: 60;
     padding: 60;
   }
@@ -13,7 +13,7 @@ body {
   }
   
   h1 {
-    color: #000000;
+    color: #ffffff;
     font-size: 50px;
     margin-bottom: 20px;
     text-align: center;
@@ -29,20 +29,24 @@ body {
   }
   
   .project {
-    background-color: #B2C9BF;
-    border-radius: 4px;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(255, 255, 255, 0.1);
     overflow: hidden;
     transition: transform 0.3s ease;
+    align-items: center;
+    text-align: center;
+    padding: 2%;
   }
   
   .project:hover {
-    transform: translateY(5px);
+    transform: translateY(10px);
   }
   
   .project img {
     width: 45%;
     height: auto;
+    
   }
   
   .project .project-info {
@@ -55,19 +59,32 @@ body {
   }
   
   .project p {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    
   }
   
   .project a {
     display: inline-block;
     padding: 30px 30px;
-    background-color: #d2cbf0;
-    color: #000000;
+    background-color: #cb97db;
+    color: #ffffff;
     text-decoration: none;
-    border-radius: 50x;
+    border-radius: 20px;
     transition: background-color 0.3s ease;
   }
   
   .project a:hover {
-    background-color: #d4bdbd;
+    background-color: #000000;
+
   }
+  .button-container{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #cb97db;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  
